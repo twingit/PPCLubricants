@@ -1,7 +1,8 @@
 #container{
-	background-color: black;
+	background: radial-gradient(gray, black, black, black);
 	font-family: sans-serif;
 	margin: 0px auto;
+	height: 770px;
 	width: 970px;
 }
 
@@ -51,3 +52,57 @@
 	color: gray;
 	text-decoration: none;	
 }
+
+#main{
+	height: 265px;
+	margin: 15px 35px 10px 35px;
+	width: 0px auto;
+}
+
+#main .picture{
+	display: inline-block;
+}
+
+#main img{
+	border: 5px solid white;
+}
+
+#main .about{
+	background-color: gray;
+	display: inline-block;
+	height: 265px;
+	margin-left: 15px;
+	vertical-align: top;
+	width: 493px;
+}
+
+h3{
+	background-color: gold;
+	font-size: 13px;
+	margin: 0px;
+	padding: 8px 0px 8px 8px;
+}
+
+h4{
+	color: white;
+	margin: 0px;
+	padding: 12px 0px 0px 20px
+}
+
+p{
+	color: white;
+	font-size: 12px;
+	margin: 0px;
+	padding: 12px 20px 0px 20px
+}
+
+
+
+
+
+
+
+
+/*#main .about p{
+	font-size: 10px;
+}*/

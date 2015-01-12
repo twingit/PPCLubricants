@@ -36,17 +36,33 @@
 
 #nav ul{
 	margin: 0px 0px 0px 0px;
+	border: 0px;
 }
 
 #nav ul li{
 	color: gray;
 	display: inline-block;
-	font-size: 10px;
+	font-size: 11px;
 	list-style-type: none;
 	margin: 0px 0px 0px 0px;
 	padding: 15px 5px 15px 5px;
 	vertical-align: top;
 }
+
+/*#nav ul{
+	margin: 0px;
+}
+
+#nav ul li{
+	border-left: 2px solid lightgray;
+	display: inline-block;
+	font-size: 12px;
+	list-style-type: none;
+	padding: 14px 10px 14px 10px;
+	vertical-align: top;
+}
+
+border-right: 2px solid lightgray;*/
 
 #nav a{
 	color: gray;
@@ -55,7 +71,7 @@
 
 #main{
 	height: 265px;
-	margin: 15px 35px 10px 35px;
+	margin: 20px 35px 20px 35px;
 	width: 0px auto;
 }
 
@@ -89,14 +105,57 @@ h4{
 	padding: 12px 0px 0px 20px
 }
 
-p{
+#main p{
 	color: white;
 	font-size: 12px;
 	margin: 0px;
 	padding: 12px 20px 0px 20px
 }
 
+#footer{
+	margin-left: 35px;
+}
 
+#strip{
+	background-color: black;
+	height: 30px;
+	margin-bottom: 20px;
+	width: 420px;
+}
+
+#strip img{
+	width: 150px;
+}
+
+#strip p{
+	color: white;
+	display: inline-block;
+	font-size: 10px;
+	vertical-align: top;
+}
+
+#content div{
+	background-color: white;
+	display:inline-block;
+	font-size: 12px;
+	margin-right: 10px;
+	width:214px;
+}
+
+#content img{
+	width: 214px;
+}
+
+#content p{
+	padding-left: 8px;
+}
+
+#content .read-more-button{
+	background-color: gold;
+	border-top-right-radius: 70px;
+	border-bottom-right-radius: 70px;
+	margin: 0px 0px 10px 120px;
+}
 
 
 
